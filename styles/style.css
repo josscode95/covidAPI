@@ -1,0 +1,59 @@
+body{
+   width: 100%;
+}
+
+.conteinerGeneral{
+   display: grid;
+   width: 100%;
+   justify-items: center;
+   background-color: rgb(211, 125, 125);
+}
+
+.contenedor{
+   width: 85%;
+   background-color: white;
+}
+
+.contenedor__titulo{
+   display: grid;
+   font-weight: 100;
+   justify-content: center;
+   font-size: 38px;
+   color: red;
+   letter-spacing: 4px;
+}
+
+.contenedor__titulo:hover{
+   text-decoration-line: underline;
+   cursor: pointer;
+}
+
+#myChart{
+   position: relative;
+   width: 1000px;
+}
+
+.tablaCovid__head{
+   background-color: rgb(172, 52, 52);
+   font-weight: 100;
+   font-size: 22px;
+}
+
+.tablaCovid__head:hover{
+   color: wheat;
+}
+
+.tablaCovid__head--item{
+   padding: 23px 20px;
+}
+
+.tablaCovid__body--tr:nth-child(even) {
+   background-color: #f2f2f2;
+}
+
+.tr__item{
+   padding: 15px 0px;
+   text-align: center;
+   font-weight: 100;
+   font-size: 20px;
+}
